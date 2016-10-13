@@ -1,4 +1,4 @@
-package firstconnect.connect;
+package whatsup.connect;
 
 import android.content.Intent;
 import android.database.Cursor;
@@ -17,9 +17,9 @@ import java.io.UnsupportedEncodingException;
 import java.net.InetSocketAddress;
 import java.util.Arrays;
 
-import firstconnect.client.Client;
-import firstconnect.client.FileToSend;
-import firstconnect.common.Protocol;
+import whatsup.client.Client;
+import whatsup.client.FileToSend;
+import whatsup.common.Protocol;
 
 public class ChatWindow extends AppCompatActivity {
     public static final String ADDRESS = "firstconnect.connect.ChatWindowAddress";

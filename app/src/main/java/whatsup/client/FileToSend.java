@@ -1,4 +1,4 @@
-package firstconnect.client;
+package whatsup.client;
 
 import java.io.InputStream;
 

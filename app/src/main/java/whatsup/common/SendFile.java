@@ -1,4 +1,4 @@
-package firstconnect.common;
+package whatsup.common;
 
 import java.io.BufferedInputStream;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.Socket;
 
-import firstconnect.client.FileToSend;
+import whatsup.client.FileToSend;
 
 /**
  * Created by trung on 15/09/2016.

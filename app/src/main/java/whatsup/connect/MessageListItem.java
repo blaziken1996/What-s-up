@@ -1,4 +1,4 @@
-package firstconnect.connect;
+package whatsup.connect;
 
 import java.net.InetSocketAddress;
 import java.util.ArrayList;

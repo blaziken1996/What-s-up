@@ -1,4 +1,4 @@
-package firstconnect.connect;
+package whatsup.connect;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import firstconnect.connect.OnlineListFragment.OnListFragmentInteractionListener;
+import whatsup.connect.OnlineListFragment.OnListFragmentInteractionListener;
 
 /**
  * {@link RecyclerView.Adapter} that can display a {@link OnlineListItem} and makes a call to the

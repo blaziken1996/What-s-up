@@ -1,11 +1,11 @@
-package firstconnect.client;
+package whatsup.client;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.net.Socket;
 import java.util.concurrent.ConcurrentHashMap;
 
-import firstconnect.common.ClientSocket;
+import whatsup.common.ClientSocket;
 
 /**
  * Created by trung on 16/09/2016.

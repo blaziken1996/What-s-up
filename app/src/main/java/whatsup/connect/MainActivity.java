@@ -1,4 +1,4 @@
-package firstconnect.connect;
+package whatsup.connect;
 
 import android.Manifest;
 import android.content.DialogInterface;
@@ -24,9 +24,9 @@ import android.view.ViewGroup;
 import java.io.IOException;
 import java.util.Arrays;
 
-import firstconnect.client.Client;
-import firstconnect.client.ClientReadSocketInput;
-import firstconnect.common.Protocol;
+import whatsup.client.Client;
+import whatsup.client.ClientReadSocketInput;
+import whatsup.common.Protocol;
 
 public class MainActivity extends AppCompatActivity implements OnlineListFragment.OnListFragmentInteractionListener, MessageListFragment.MsgListListener {
 

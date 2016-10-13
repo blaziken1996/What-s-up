@@ -1,4 +1,4 @@
-package firstconnect.connect;
+package whatsup.connect;
 
 /**
  * Created by trung on 10/12/16.

@@ -1,4 +1,4 @@
-package firstconnect.connect;
+package whatsup.connect;
 
 import org.junit.Test;
 

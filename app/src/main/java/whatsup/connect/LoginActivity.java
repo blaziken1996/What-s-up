@@ -1,4 +1,4 @@
-package firstconnect.connect;
+package whatsup.connect;
 
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -11,8 +11,8 @@ import android.widget.Toast;
 
 import java.util.concurrent.ExecutionException;
 
-import firstconnect.client.Client;
-import firstconnect.client.LoginTask;
+import whatsup.client.Client;
+import whatsup.client.LoginTask;
 
 public class LoginActivity extends AppCompatActivity {
     public static final int INTERNET_PERMISSION_CODE = 100;

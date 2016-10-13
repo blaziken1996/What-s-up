@@ -1,11 +1,11 @@
-package firstconnect.client;
+package whatsup.client;
 
 import android.os.AsyncTask;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 
-import firstconnect.common.Protocol;
+import whatsup.common.Protocol;
 
 import static java.util.Arrays.asList;
 

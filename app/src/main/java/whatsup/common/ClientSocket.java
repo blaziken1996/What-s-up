@@ -1,4 +1,4 @@
-package firstconnect.common;
+package whatsup.common;
 
 import java.io.IOException;
 import java.io.InputStream;

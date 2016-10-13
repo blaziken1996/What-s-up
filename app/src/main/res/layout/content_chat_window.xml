@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="64dp"
-    tools:context="firstconnect.connect.ChatWindow"
+    tools:context="whatsup.connect.ChatWindow"
     tools:showIn="@layout/activity_chat_window">
 
     <android.support.v7.widget.RecyclerView
@@ -20,7 +20,7 @@
         android:layout_weight="3"
         app:layoutManager="LinearLayoutManager"
         app:stackFromEnd="true"
-        tools:context="firstconnect.connect.ChatWindow"
+        tools:context="whatsup.connect.ChatWindow"
         tools:listitem="@layout/fragment_item_chatlist_you" />
 
 

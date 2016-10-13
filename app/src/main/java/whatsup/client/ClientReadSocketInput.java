@@ -1,4 +1,4 @@
-package firstconnect.client;
+package whatsup.client;
 
 
 import android.content.Context;
@@ -17,19 +17,19 @@ import java.net.InetSocketAddress;
 import java.util.ArrayList;
 import java.util.List;
 
-import firstconnect.common.Protocol;
-import firstconnect.connect.ChatMessage;
-import firstconnect.connect.ChatWindow;
-import firstconnect.connect.MainActivity;
-import firstconnect.connect.MessageListAdapter;
-import firstconnect.connect.MessageListFragment;
-import firstconnect.connect.MessageListItem;
-import firstconnect.connect.OnlineListFragment;
-import firstconnect.connect.OnlineListItem;
+import whatsup.common.Protocol;
+import whatsup.connect.ChatMessage;
+import whatsup.connect.ChatWindow;
+import whatsup.connect.MainActivity;
+import whatsup.connect.MessageListAdapter;
+import whatsup.connect.MessageListFragment;
+import whatsup.connect.MessageListItem;
+import whatsup.connect.OnlineListFragment;
+import whatsup.connect.OnlineListItem;
 
-import static firstconnect.connect.MainActivity.currentActivity;
-import static firstconnect.connect.MainActivity.currentChatWindow;
 import static java.util.Arrays.asList;
+import static whatsup.connect.MainActivity.currentActivity;
+import static whatsup.connect.MainActivity.currentChatWindow;
 
 /**
  * Created by trung on 21/09/2016.

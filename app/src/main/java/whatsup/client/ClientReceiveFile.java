@@ -1,4 +1,4 @@
-package firstconnect.client;
+package whatsup.client;
 
 
 import android.os.AsyncTask;
@@ -9,11 +9,11 @@ import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.net.Socket;
 
-import firstconnect.common.Protocol;
-import firstconnect.common.ReceiveFile;
-import firstconnect.connect.MainActivity;
+import whatsup.common.Protocol;
+import whatsup.common.ReceiveFile;
+import whatsup.connect.MainActivity;
 
-import static firstconnect.connect.MainActivity.currentChatWindow;
+import static whatsup.connect.MainActivity.currentChatWindow;
 
 /**
  * Created by trung on 22/09/2016.
