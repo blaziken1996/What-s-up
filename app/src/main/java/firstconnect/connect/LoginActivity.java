@@ -51,7 +51,7 @@ public class LoginActivity extends AppCompatActivity {
                 finish();
                 startActivity(intent);
             } else
-                Toast.makeText(this, "Unable to connect to server with IP" + txtServerAddress.getText().toString() + " and port number: " + txtPortNumber.getText().toString(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Unable to connect to server with IP: " + txtServerAddress.getText().toString() + " and port number: " + txtPortNumber.getText().toString(), Toast.LENGTH_SHORT).show();
         }
     }
 
