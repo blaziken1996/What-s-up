@@ -73,12 +73,12 @@ public class ChatWindow extends AppCompatActivity {
                     Client.mainClient.write(Arrays.asList(Protocol.intToBytes(Protocol.SEND_MSG_CODE), Protocol.inetAddressToBytes(address), Protocol.stringToBytes(message)));
                     MessageListItem item = msglistadapter.getHashMap().get(address);
                     if (item != null) {
-                        adapter.addMsg(new ChatMessage(message, "Me", true));
+                        adapter.addMsg(new ChatMessage(message, "Me to " + name + address, true));
                         msglistadapter.notifyDataSetChanged();
                     } else {
                         item = new MessageListItem(address, name);
                         adapter.setmValues(item.getMsglist());
-                        adapter.addMsg(new ChatMessage(message, "Me", true));
+                        adapter.addMsg(new ChatMessage(message, "Me to " + name + address, true));
                         msglistadapter.addMsg(item);
                     }
                     //msgList.smoothScrollToPosition(getAdapter().getItemCount() - 1);
