@@ -1,3 +1,3 @@
-# What-s-up
+# WhatsupAndroid
 
 An Android front-end for my chat application at https://github.com/trungtrinh44/Whatsup
